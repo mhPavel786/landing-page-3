@@ -1,0 +1,369 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	font-family: 'Roboto Mono', monospace;
+
+}
+	header{
+	
+		background-image:url(../img/bg.jpg);
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		float: left;
+		height: 100vh;
+	}
+header ul{
+	list-style: none;
+}
+	header li{
+		display: inline-block;
+		padding: 30px 10px;
+
+	}
+	 a{
+		font-size: 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: black;
+	}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+.logo{
+ zoom: .3;
+ float: left;
+}
+
+		.menu{
+			float: left;
+		}
+	.nav{
+		display: inline-block;
+		float: left;
+		
+	}
+
+	.fa.fa-facebook{
+		background-color: blue;
+		color: white;
+		padding: 5px 9px;
+		
+	}
+	.fa.fa-twitter{
+		background-color: lightblue;
+		color: darkblue;
+		padding: 5px 9px;
+		
+	}
+	.fa.fa-linkedin{
+		background-color: darkblue;
+		color: white;
+		padding: 5px 9px;
+		
+	}
+	.fa.fa-google-plus{
+		background-color: white;
+		color: red;
+		padding: 5px 9px;
+		
+	}
+
+	.si{
+		color: black;
+	}
+	.header-info{
+    width: 40%;
+    float: left;
+    margin: 100px 120px;
+    text-align: center;
+    color: black;
+    height: 70vh;
+    padding: 10px;
+}
+.header-info h1 {
+    letter-spacing: 10px;
+    font-size: 48px;
+    margin: 20px 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+.header-info p {
+    text-align: justify;
+    color: black;
+    padding: 0 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+    
+}
+
+.btn-expert{
+    width: 40%;
+    float: left;
+    margin-left: 39px;
+    margin-top: 25px;
+
+}
+.btn-expert a{
+    text-decoration: none;
+    border: 2px solid white;
+    color:  #333333;
+    padding: 5px 20px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+.btn-expert a:hover{
+    color: #FD7E14;
+    background-color: black;
+    border: none;
+}
+.btn-founder{
+    width: 40%;
+    float: left;
+    margin-top: 25px;
+}
+.btn-founder a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: #333333;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+.btn-founder a:hover{
+    color: #FD7E14;
+    background-color: black;
+    border: none;
+}
+	.content{
+		width: 100%;
+		float: left;
+	}
+	.content h1{
+		text-align: center;
+		font-size: 40px;
+	}
+
+		.concept{
+			height: 100%;
+			width: 20%;
+			float: left;
+			padding: 10px 20px;
+		}
+		.loan{
+			height: 100%;
+			width: 20%;
+			float: left;
+			padding: 10px 20px;
+
+		}
+		.finance{
+			height: 100%;
+			width: 20%;
+			float: left;
+			padding: 10px 20px;
+
+		}
+		.signup{
+			height: 100%;
+			width: 20%;
+			float: left;
+			padding: 10px 20px;
+
+		}
+		.fa{
+			color: darkcyan;
+    		font-size: 50px;
+    		padding: 20px;
+
+		}
+		.logo-name{
+			color: black;
+    		font-size: 25px;
+   			 padding-bottom: 15px;
+	
+		}
+		.word{
+			padding: 10px 0px;
+			font-weight: 600;
+
+		}
+		.btn{
+	    transition: .6s ease;
+	    display: inline-block;
+	    padding: 9px 25px;
+	    border-radius: 5px;
+	    text-transform: uppercase;
+	    font-size: 20px;
+	    color: white;
+	    background: blue;
+	    border: 2px solid transparent;
+	    font-weight: 500;
+	    letter-spacing: 1px;
+	    margin: 10px;
+
+		}
+		.btn:hover{
+			border: 2px solid black;
+			color: red;
+			background-color: white;
+
+		}
+		.info{
+			width: 100%;
+			float: left;
+		}
+		.info-box{
+			    float: left;
+    			width: 50%;
+		}
+		.info-box h3{
+			color: black;
+    		font-size: 25px;
+   			 padding-bottom: 15px;
+		}
+		.info-box li{
+			padding: 5px;
+			margin-left: 3px;
+		}
+		.img-rt img{
+			width: 50%;
+			float: left;
+
+		}
+		.blog{
+			width: 100%;
+			float: left;
+		}
+		.blog h3{
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 600;
+			padding:2px 0px 10px;
+			font-size: 50px;
+		}
+		.left-blog{
+			width: 50%;
+			float: left;
+		}
+		.right-blog{
+			width: 50%;
+			float: left;
+		}
+		.ques{
+	font-size: 23px;
+    letter-spacing: -2px;
+    padding: 0px 0px 5px;
+    font-weight: bolder;
+		}
+		.ans{
+		    font-weight: normal;
+    		padding-bottom: 10px;
+		}
+			
+			.contact{
+				width: 100%;
+			    float: left;
+			    padding: 15px 0px;
+			    font-size: 15px;
+			    font-weight: bolder;
+			    font-family: cursive;
+			    background-color: #80808059;
+			}
+
+			.star{
+    		text-align: center;
+    		width: 100%;
+    		float: left;
+          }
+			.star h2{
+			    margin-bottom: 10px;
+			    text-transform: uppercase;
+			    font-weight: bolder;
+			    font-family: cursive;
+			}
+			.star ul li{
+			    display: inline-block;
+			    margin: 0 5px;
+			}
+			.star ul li .fa{
+			    padding: 10px;
+			    background-color: blue;
+			    color: white;
+			   
+			}
+			.star ul li #last:last-child{
+				background-color: gray;
+
+			}
+			.star p{
+			   display: inline-block;
+			   font-weight: bold;
+			   margin: 10px;
+			   font-size: 20px;
+			}
+
+				.client{
+					width: 100%;
+					float: left;
+					background-color: darkgray;
+				}
+
+				.client h2{
+					    text-align: center;
+   						 font-size: 30px;
+
+				}
+				.cl{
+					width: 20%;
+				    float: left;
+				    padding-bottom: 20px;
+
+
+				}
+				.cname{
+					    letter-spacing: -0.9px;
+					    font-size: 25px;
+					    padding-top: 10px;
+					    color: white;
+					    font-style: initial;
+
+				}
+				.cinfo{
+					    padding-left: 25px;
+						
+					}
+					footer{
+						width: 100%;
+						float: left;
+						background-color: #2b5be2f7;
+					}
+					.fsec{
+						width: 50%;
+						float: left;
+						padding: 7px 0px 20px 0px;
+			    		font-family: cursive;
+
+					}
+					.fsec ul{
+						list-style: none;
+
+					}
+					.fsec ul li{
+						text-align: center;
+						color: white;
+						letter-spacing: 1px;
+
+					}
+					 #none{
+					 	color: black;
+					 	font-size: 20px;
+					 	padding: 4px;
+
+					}
